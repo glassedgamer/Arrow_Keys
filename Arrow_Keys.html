@@ -1,0 +1,26 @@
+<!DOCTYOPE html>
+<html>
+ <head>
+  <title>Detect Arrow Key in Javascript</title>
+ </head>
+ <body>
+   <script type="text/javascript">
+     document.onkeydown = function(event){
+       switch (event.keyCode) {
+         case 37:
+          alert('Left Arrow Key Pressed');
+          break;
+         case 38:
+          alert('Up Arrow Key Pressed');
+          break;
+         case 39:
+          alert('Right Arrow Key Pressed');
+          break;
+         case 40:
+          alert('Down Arrow Key Pressed');
+          break;
+       }
+     };
+   </script>
+ </body>
+</html>
